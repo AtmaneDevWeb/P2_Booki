@@ -5,7 +5,7 @@
   font-family: "Raleway", "sans-serif";
 }
 
-/************* Page header/Navbar ********************************/
+/* Page header + Navbar */
 header {
   margin: 20px 30px;
 }
@@ -45,7 +45,7 @@ nav a:hover {
   display: flex;
 }
 
-/* ********************* Main part ******************** */
+/***************** Main part *************/
 
 /* search form */
 .search {
@@ -73,7 +73,9 @@ nav a:hover {
   margin-left: 20px;
 }
 
-/*  Apartment/Most popular */
+/*  Apartment + Most popular section */
+
+
 .apartment-info{
   display: flex;
   gap: 40px;
@@ -81,14 +83,54 @@ nav a:hover {
 .apartment-info>div {
   border:1px solid green;
   background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
-.apartment-info .Marseille-apartment {
+/* marseille-hebergement class */
+.apartment-info .marseille-hebergement {
   flex-basis: 65%;
+  padding: 15px;
+}
+/* marseille-apartment-list class */
+.marseille-apartment-list {
+  margin-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.marseille-apartment-list div {
+  border: 1px solid rgb(128, 0, 111);
 }
 
-.apartment-info .popular {
+/* most-popular class */
+.apartment-info .most-popular {
   flex-basis: 35%;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.apartment-info .most-popular {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-icon {
+  display: flex;
+}
+
+#icon {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.apartment-info .most-popular div {
+  border: 1px solid rgb(128, 0, 111);
 }
 
 /*  */

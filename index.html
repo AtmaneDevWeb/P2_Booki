@@ -13,7 +13,7 @@
     <title>Booki</title>
   </head>
   <body>
-    <!-- **********************Page header****************** -->
+    <!-- Page header -->
     <header>
       <div class="logo-nav">
         <img id="logo" src="assets/logo/Booki.png" alt="Booki logo" />
@@ -25,51 +25,67 @@
         </nav>
       </div>
     </header>
-    <!-- ********************* Main part ********************-->
-    <main class="search">
-      <!-- Title -->
-      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-      <p>En plein centre ville ou en pleine nature</p>
 
-      <!-- Search form -->
-      <i class="fas fa-map-marker-alt"></i>
-      <input type="text" />
-      <button>search</button>
+    <!-- Main part -->
+    <main>
+      <!-- search section -->
+      <section class="search">
+        <!-- Title -->
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <!-- Search form -->
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="text" />
+        <button>search</button>
+        <!-- Filters -->
+        <div class="filter-list">
+          <h1>Filtres</h1>
+          <div class="filter">
+            <i class="fas fa-money-bill-wave"></i>
+            <span>Economique</span>
+          </div>
+          <div class="filter">
+            <i class="fas fa-child"></i>
+            <span>Familial</span>
+          </div>
+          <div class="filter">
+            <i class="fas fa-heart"></i>
+            <span>Romantique</span>
+          </div>
+          <div class="filter">
+            <i class="fas fa-dog"></i>
+            <span>Animaux autorisés</span>
+          </div>
+        </div>
+        <!-- Result info -->
+        <div class="result-info">
+          <i class="fas fa-info" id="icone-info"></i>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </section>
 
-      <!-- Filters -->
-      <div class="filter-list">
-        <h1>Filtres</h1>
-        <div class="filter">
-          <i class="fas fa-money-bill-wave"></i>
-          <span>Economique</span>
-        </div>
-        <div class="filter">
-          <i class="fas fa-child"></i>
-          <span>Familial</span>
-        </div>
-        <div class="filter">
-          <i class="fas fa-heart"></i>
-          <span>Romantique</span>
-        </div>
-        <div class="filter">
-          <i class="fas fa-dog"></i>
-          <span>Animaux autorisés</span>
-        </div>
-      </div>
-
-      <!-- Result info -->
-      <div class="result-info">
-        <i class="fas fa-info" id="icone-info"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-
-      <!-- Apartment/Most popular -->
+      <!-- Apartment + Most popular -->
       <section class="apartment-info">
-        <div class="Marseille-apartment">
-          <h3>Hébergements à Marseille</h3>
+        <div class="marseille-hebergement">
+          <h2>Hébergements à Marseille</h2>
+          <div class="marseille-apartment-list">
+            <div>Appartement 1</div>
+            <div>Appartement 2</div>
+            <div>Appartement 3</div>
+            <div>Appartement 4</div>
+            <div>Appartement 5</div>
+            <div>Appartement 6</div>
+          </div>
+          <a href="#">Afficher plus</a>
         </div>
-        <div class="popular">
-          <h3>Les plus populaires</h3>
+        <div class="most-popular">
+          <div class="title-icon">
+            <h2>Les plus populaires</h2>
+            <span id="icon"><i class="fas fa-chart-line"></i></span>
+          </div>
+          <div>Appartement 1</div>
+          <div>Appartement 2</div>
+          <div>Appartement 3</div>
         </div>
       </section>
     </main>
