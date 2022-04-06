@@ -5,6 +5,16 @@
   font-family: "Raleway", "sans-serif";
 }
 
+/************* Page header/Navbar ********************************/
+header {
+  margin: 20px 30px;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -24,6 +34,7 @@ nav {
 
 nav a {
   padding: 30px;
+  border-top: 3px solid transparent;
 }
 
 nav a:hover {
@@ -34,9 +45,56 @@ nav a:hover {
   display: flex;
 }
 
-@media (max-width: 768px) {
+/* ********************* Main part ******************** */
+
+/* search form */
+.search {
+  padding: 0 20px;
+}
+
+/* Filters */
+.filter-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Result info */
+.result-info {
+  display: flex;
+  align-items: center;
+}
+
+.fas .fa-info {
+  margin-right: 10px;
+}
+
+.result-info p {
+  margin-left: 20px;
+}
+
+/*  Apartment/Most popular */
+.apartment-info{
+  display: flex;
+  gap: 40px;
+}
+.apartment-info>div {
+  border:1px solid green;
+  background-color: #f2f2f2;
+}
+
+.apartment-info .Marseille-apartment {
+  flex-basis: 65%;
+}
+
+.apartment-info .popular {
+  flex-basis: 35%;
+}
+
+/*  */
+/* @media (max-width: 768px) {
   #logo {
-    margin-left: 160px;
+    margin-right: 100px;
   }
 
   .sub_nav {
@@ -52,4 +110,4 @@ nav a:hover {
     border-bottom: 3px solid #0065fc;
     border-top: transparent;
   }
-}
+} */

@@ -4,19 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f971efd41f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Booki</title>
   </head>
   <body>
+    <!-- **********************Page header****************** -->
     <header>
-      <nav>
-        <img id="logo" src="/assets/logo/Booki.png" alt="Booki logo" />
-        <div class="sub_nav">
-          <a href="#">Hébergements</a>
-          <a href="#">Activités</a>
-        </div>
-      </nav>
+      <div class="logo-nav">
+        <img id="logo" src="assets/logo/Booki.png" alt="Booki logo" />
+        <nav>
+          <div class="sub_nav">
+            <a href="#">Hébergements</a>
+            <a href="#">Activités</a>
+          </div>
+        </nav>
+      </div>
     </header>
+    <!-- ********************* Main part ********************-->
+    <main class="search">
+      <!-- Title -->
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre ville ou en pleine nature</p>
+
+      <!-- Search form -->
+      <i class="fas fa-map-marker-alt"></i>
+      <input type="text" />
+      <button>search</button>
+
+      <!-- Filters -->
+      <div class="filter-list">
+        <h1>Filtres</h1>
+        <div class="filter">
+          <i class="fas fa-money-bill-wave"></i>
+          <span>Economique</span>
+        </div>
+        <div class="filter">
+          <i class="fas fa-child"></i>
+          <span>Familial</span>
+        </div>
+        <div class="filter">
+          <i class="fas fa-heart"></i>
+          <span>Romantique</span>
+        </div>
+        <div class="filter">
+          <i class="fas fa-dog"></i>
+          <span>Animaux autorisés</span>
+        </div>
+      </div>
+
+      <!-- Result info -->
+      <div class="result-info">
+        <i class="fas fa-info" id="icone-info"></i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+
+      <!-- Apartment/Most popular -->
+      <section class="apartment-info">
+        <div class="Marseille-apartment">
+          <h3>Hébergements à Marseille</h3>
+        </div>
+        <div class="popular">
+          <h3>Les plus populaires</h3>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
