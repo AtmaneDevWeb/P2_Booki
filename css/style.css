@@ -144,12 +144,73 @@ nav a:hover {
 .most-popular .card a {
   display: flex;
 }
-.most-popular .card  img {
+.most-popular .card img {
   height: 135px;
   width: 300px;
-
-
 }
+
+/* Activities Section */
+
+#activities-section {
+  border: 2px solid green;
+  width: 100%;
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway-Bold", sans-serif;
+}
+
+.activites .activites2 {
+  border: 1px solid blue;
+}
+
+.activitie-cards {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activites .img1  img {
+  width: 400px;
+  height: 500px;
+}
+
+.activites2 .img2 img {
+  width: 400px;
+  height: 240px;
+}
+
+.activites2 .img3 img {
+  width: 400px;
+  height: 200px;
+}
+
+.activites .img4 img {
+  width: 400px;
+  height: 500px;
+}
+
+.activites2 .img5 img {
+  width: 400px;
+  height: 240px;
+}
+
+.activites2 .img6 img {
+  width: 400px;
+  height: 200px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding:15px;
+}
+
+
 
 /*  */
 /* @media (max-width: 768px) {
