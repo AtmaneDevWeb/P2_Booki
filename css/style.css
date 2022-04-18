@@ -11,9 +11,14 @@ header {
 }
 
 .logo-nav {
+  border: 3px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sub_nav {
+  border: 1px solid green;
 }
 a {
   color: inherit;
@@ -39,6 +44,7 @@ nav a {
 
 nav a:hover {
   border-top: 3px solid #0065fc;
+  color: #0065fc;
 }
 
 .sub_nav {
@@ -52,21 +58,82 @@ nav a:hover {
   padding: 0 20px;
 }
 
+.fa-map-marker-alt {
+  height: 39px;
+}
+
+.search i {
+  display: flex;
+  color: #0065fc;
+  border-radius: 50%;
+  background-color: #deebff;
+  height: 25px;
+  width: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}
+
+.search .map-color {
+  display: flex;
+  height: 30px;
+  width: 37px;
+  border-radius: 10px 0 0 10px;
+  background: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+#typing-search {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.btn-search {
+  border: 1px solid lightgray;
+  background-color: #0065fc;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  
+}
 /* Filters */
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  padding-right: 5px;
+  
+  }
+
 .filter-list {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
-
+.svg-inline--fa {
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 5px;
+}
 .filter-list div:hover {
   cursor: pointer;
+  background-color:#f2f2f2 ;
 }
 
-
-
 /* Result info */
+#icone-info {
+  background-color: white;
+  border: 1px solid #f2f2f2;
+}
 .result-info {
   display: flex;
   align-items: center;
@@ -74,7 +141,7 @@ nav a:hover {
 
 .fas .fa-info {
   margin-right: 10px;
-}
+ }
 
 .result-info p {
   margin-left: 20px;
@@ -83,7 +150,7 @@ nav a:hover {
 /*  Apartment + Most popular section */
 /* Stars color */
 .blue {
-  color:blue
+  color: blue;
 }
 
 .grey {
@@ -92,9 +159,9 @@ nav a:hover {
 #apartment-info {
   display: flex;
   justify-content: space-between;
-  }
+}
 #apartment-info > div {
-   background-color: #f2f2f2;
+  background-color: #f2f2f2;
   border-radius: 10px;
   margin-left: 20px;
 }
@@ -112,10 +179,8 @@ nav a:hover {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  
 }
 .marseille-apartment-list div {
-  
   width: 33%;
   background-color: white;
   padding: 10px;
@@ -125,8 +190,9 @@ nav a:hover {
 
 /* most-popular class */
 sidebar .card {
-display: flex;
-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 #apartment-info .most-popular {
@@ -199,7 +265,7 @@ section h2 {
   justify-content: space-between;
 }
 
-.activites .img1  img {
+.activites .img1 img {
   width: 400px;
   height: 500px;
 }
@@ -233,23 +299,26 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
-  padding:15px;
+  padding: 15px;
 }
-header
- {margin: 20px;}
- footer {
+header {
+  margin: 20px;
+}
+footer {
   padding: 200px;
 }
 main {
-  margin:30px
+  margin: 30px;
 }
 
-
-
 /*  */
-/* @media (max-width: 768px) {
-  #logo {
-    margin-right: 100px;
+@media (max-width: 768px) {
+  .logo-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  img #logo {
+    align-items: center;
   }
 
   .sub_nav {
@@ -265,4 +334,4 @@ main {
     border-bottom: 3px solid #0065fc;
     border-top: transparent;
   }
-} */
+}

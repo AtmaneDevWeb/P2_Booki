@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <script
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script
       src="https://kit.fontawesome.com/f971efd41f.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Booki</title>
@@ -16,11 +19,11 @@
     <!-- Page header -->
     <header>
       <div class="logo-nav">
-        <img id="logo" src="assets/logo/Booki@3x.png" alt="Booki logo" />
+        <img id="logo" src="assets/logo/Booki.png" alt="Booki logo" />
         <nav>
           <div class="sub_nav">
-            <a href="#">Hébergements</a>
-            <a href="#">Activités</a>
+            <a href="#apartment-info">Hébergements</a>
+            <a href="#activities-section">Activités</a>
           </div>
         </nav>
       </div>
@@ -35,15 +38,15 @@
         <p>En plein centre ville ou en pleine nature</p>
         <!-- Search form -->
         <form method="post" action="#">
-          <i class="fas fa-map-marker-alt"></i>
+          <i class="fas fa-map-marker-alt map-color"></i>
           <input type="search" name="typing-search" id="typing-search"  placeholder="Marsseille, France"  />
-          <button type="submit">search</button>
+          <button type="submit" class="btn-search">search</button>
         </form>
         <!-- Filters -->
         <div class="filter-list">
           <span>Filtres</span>
           <div class="filter">
-            <i class="fas fa-money-bill-wave"></i>
+            <i class="fas fa-money-bill-wave-alt color"></i>
             <span>Economique</span>
           </div>
           <div class="filter">
