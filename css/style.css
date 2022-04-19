@@ -86,8 +86,8 @@ form {
   justify-content: center;
   align-items: center;
   position: relative;
+  color: black;
 }
-
 
 #typing-search {
   border: 1px solid lightgrey;
@@ -99,7 +99,6 @@ form {
   background-color: #0065fc;
   color: white;
   border-radius: 0 10px 10px 0;
-  
 }
 /* Filters */
 .filter {
@@ -109,8 +108,17 @@ form {
   border: 1px solid lightgrey;
   border-radius: 15px;
   padding-right: 5px;
-  
-  }
+}
+.filter-list div:hover {
+  flex-direction: row-reverse;
+  padding-right: 0px;
+   
+}
+
+.filter-list div:hover .color {
+  color: #deebff;
+  background-color: #0065fc;
+}
 
 .filter-list {
   display: flex;
@@ -126,7 +134,7 @@ form {
 }
 .filter-list div:hover {
   cursor: pointer;
-  background-color:#f2f2f2 ;
+  background-color: #f2f2f2;
 }
 
 /* Result info */
@@ -141,7 +149,7 @@ form {
 
 .fas .fa-info {
   margin-right: 10px;
- }
+}
 
 .result-info p {
   margin-left: 20px;
@@ -163,29 +171,27 @@ form {
 #apartment-info > div {
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 /* marseille-hebergement class */
 #apartment-info .marseille-hebergement {
-  flex-basis: 65%;
+  width: 65%;
   padding: 15px;
+  border-radius: 20px;
 }
 /* marseille-apartment-list class */
 .marseille-apartment-list {
   background-color: #f2f2f2;
-  border-radius: 15px;
-  margin-bottom: 20px;
+
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
 }
-.marseille-apartment-list div {
+.marseille-apartment-list article {
   width: 33%;
   background-color: white;
   padding: 10px;
-
-  margin-bottom: 10px;
 }
 
 /* most-popular class */
@@ -196,23 +202,20 @@ sidebar .card {
 }
 
 #apartment-info .most-popular {
-  flex-basis: 35%;
+  width: 32%;
   padding: 10px;
-  margin-right: 15px;
-}
-
-.most-popular {
   background-color: #f2f2f2;
-}
-
-#apartment-info .most-popular {
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
 
 .title-icon {
   display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  align-items: center;
 }
 
 #icon {
@@ -225,6 +228,8 @@ sidebar .card {
 }
 .card {
   background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 16px #f2f2f2;
 }
 .card img {
   height: 200px;
@@ -238,10 +243,14 @@ sidebar .card {
 }
 .most-popular .card img {
   height: 135px;
-  width: 300px;
+  width: 33%;
   object-fit: cover;
 }
 
+.afficher {
+  font-weight: bold;
+  font-size: 15px;
+}
 /* Activities Section */
 
 #activities-section {
@@ -255,43 +264,43 @@ section h2 {
   font-family: "Raleway-Bold", sans-serif;
 }
 
-.activites .activites2 {
-  border: 1px solid blue;
-}
-
 .activitie-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.activitie-cards > div {
+  width: 25%;
 }
 
 .activites .img1 img {
-  width: 400px;
+  max-width: 70%;
   height: 500px;
 }
 
 .activites2 .img2 img {
-  width: 400px;
+  max-width: 70%;
   height: 240px;
 }
 
 .activites2 .img3 img {
-  width: 400px;
+  max-width: 70%;
   height: 200px;
 }
 
 .activites .img4 img {
-  width: 400px;
+  width: 70%;
   height: 500px;
 }
 
 .activites2 .img5 img {
-  width: 400px;
+  max-width: 70%;
   height: 240px;
 }
 
 .activites2 .img6 img {
-  width: 400px;
+  max-width: 70%;
   height: 200px;
 }
 
@@ -304,34 +313,26 @@ footer {
 header {
   margin: 20px;
 }
-footer {
-  padding: 200px;
+
+footer > div {
+  width: 33%;
 }
+.about-footer h4 {
+  margin-left: 40px;
+}
+
+.hebergements-footer h4 {
+  margin-left: 40px;
+}
+
+.assistance-footer h4 {
+  margin-left: 40px;
+}
+
+footer li {
+  list-style: none;
+}
+
 main {
   margin: 30px;
-}
-
-/*  */
-@media (max-width: 768px) {
-  .logo-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  img #logo {
-    align-items: center;
-  }
-
-  .sub_nav {
-    flex-basis: 100%;
-  }
-
-  .sub_nav a {
-    flex-basis: 50%;
-    text-align: center;
-  }
-
-  .sub_nav a:hover {
-    border-bottom: 3px solid #0065fc;
-    border-top: transparent;
-  }
 }

@@ -1,0 +1,24 @@
+/* Media Queries Mobile  */
+@media (max-width: 768px) {
+    .logo-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img #logo {
+      align-items: center;
+    }
+  
+    .sub_nav {
+      flex-basis: 100%;
+    }
+  
+    .sub_nav a {
+      flex-basis: 50%;
+      text-align: center;
+    }
+  
+    .sub_nav a:hover {
+      border-bottom: 3px solid #0065fc;
+      border-top: transparent;
+    }
+  }
