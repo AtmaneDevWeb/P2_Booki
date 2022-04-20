@@ -56,6 +56,24 @@ h1 {
     align-items:flex-start;
     padding-bottom: 20px;
   }
+
+#apartment-info {
+  flex-direction: column;
+}
+ .marseille-apartment-list {
+  flex-direction: column;
+}
+
+.activitie-cards {
+  flex-direction: column;
+}
+
+footer {
+  flex-direction: column;
+}
+  .most-popular {
+    order: -1;
+  }
 }
 
 
