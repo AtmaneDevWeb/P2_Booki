@@ -11,15 +11,11 @@ header {
 }
 
 .logo-nav {
-  border: 3px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.sub_nav {
-  border: 1px solid green;
-}
 a {
   color: inherit;
   text-decoration: none;
@@ -33,8 +29,7 @@ nav {
 }
 
 #logo {
-  margin-right: auto;
-  padding: 0 20px;
+  max-width: 130px;
 }
 
 nav a {
@@ -99,6 +94,12 @@ form {
   background-color: #0065fc;
   color: white;
   border-radius: 0 10px 10px 0;
+  height: 30px;
+  cursor: pointer;
+}
+
+form .search-icon {
+  display: none;
 }
 /* Filters */
 .filter {
@@ -112,11 +113,10 @@ form {
 .filter-list div:hover {
   flex-direction: row-reverse;
   padding-right: 0px;
-   
 }
 
 .filter-list div:hover .color {
-  color: #deebff;
+  color: whitesmoke;
   background-color: #0065fc;
 }
 
