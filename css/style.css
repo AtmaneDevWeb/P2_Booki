@@ -66,7 +66,6 @@ main {
   width: 31px;
   justify-content: center;
   align-items: center;
-  
 }
 
 form {
@@ -86,9 +85,10 @@ form {
 }
 
 #typing-search {
+  padding-left: 10px;
   border: 1px solid lightgrey;
   border-radius: 2px;
-  width: 215px;
+  width: 225px;
 }
 
 .btn-search {
@@ -203,9 +203,12 @@ sidebar .card {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  
 }
 
-
+sidebar .card .stars {
+  margin-top: 40%;
+}
 
 #apartment-info .most-popular {
   width: 32%;
@@ -241,15 +244,16 @@ sidebar .card {
   border-radius: 20px;
   box-shadow: 0 0 16px #f2f2f2;
   margin-bottom: 15px;
-  
-
-  
 }
 .card img {
   height: 200px;
   width: 100%;
   border-radius: 15px;
   object-fit: cover;
+}
+
+.card .info {
+  margin-left: 20px;
 }
 
 .most-popular .card a {
@@ -265,7 +269,6 @@ sidebar .card {
 .afficher {
   font-weight: bold;
   font-size: 15px;
- 
 }
 
 .afficher:hover {
@@ -369,5 +372,3 @@ footer li {
 main {
   padding: 30px;
 }
-
-
