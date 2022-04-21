@@ -6,9 +6,6 @@
 }
 
 /* Page header + Navbar */
-header {
-  margin: 20px 30px;
-}
 
 .logo-nav {
   display: flex;
@@ -47,11 +44,14 @@ nav a:hover {
 }
 
 /***************** Main part *************/
+.search h1 {
+  font-size: 25px;
+}
+main {
+  padding: 30px;
+}
 
 /* search form */
-.search {
-  padding: 0 20px;
-}
 
 .fa-map-marker-alt {
   height: 39px;
@@ -62,10 +62,11 @@ nav a:hover {
   color: #0065fc;
   border-radius: 50%;
   background-color: #deebff;
-  height: 25px;
-  width: 25px;
+  height: 33px;
+  width: 31px;
   justify-content: center;
   align-items: center;
+  
 }
 
 form {
@@ -74,7 +75,7 @@ form {
 
 .search .map-color {
   display: flex;
-  height: 30px;
+  height: 50px;
   width: 37px;
   border-radius: 10px 0 0 10px;
   background: #f2f2f2;
@@ -87,6 +88,7 @@ form {
 #typing-search {
   border: 1px solid lightgrey;
   border-radius: 2px;
+  width: 215px;
 }
 
 .btn-search {
@@ -94,7 +96,7 @@ form {
   background-color: #0065fc;
   color: white;
   border-radius: 0 10px 10px 0;
-  height: 30px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -103,10 +105,11 @@ form .search-icon {
 }
 /* Filters */
 .filter {
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid lightgrey;
+  border: 1px solid #0065fc;
   border-radius: 15px;
   padding-right: 5px;
 }
@@ -145,6 +148,7 @@ form .search-icon {
 .result-info {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .fas .fa-info {
@@ -201,11 +205,13 @@ sidebar .card {
   width: 100%;
 }
 
+
+
 #apartment-info .most-popular {
   width: 32%;
   padding: 10px;
   background-color: #f2f2f2;
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -226,10 +232,18 @@ sidebar .card {
   margin-top: 27px;
   margin-left: 20px;
 }
+
+#icon :hover {
+  color: #0065fc;
+}
 .card {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 0 16px #f2f2f2;
+  margin-bottom: 15px;
+  
+
+  
 }
 .card img {
   height: 200px;
@@ -240,9 +254,10 @@ sidebar .card {
 
 .most-popular .card a {
   display: flex;
+  padding: 0;
 }
 .most-popular .card img {
-  height: 135px;
+  height: 100%;
   width: 33%;
   object-fit: cover;
 }
@@ -250,6 +265,24 @@ sidebar .card {
 .afficher {
   font-weight: bold;
   font-size: 15px;
+ 
+}
+
+.afficher:hover {
+  color: #0065fc;
+  font-size: 17px;
+}
+
+sidebar #card-7 {
+  height: 200px;
+}
+
+sidebar #card-8 {
+  height: 200px;
+}
+
+sidebar #card-9 {
+  height: 200px;
 }
 /* Activities Section */
 
@@ -308,7 +341,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
-  padding: 15px;
+  padding-bottom: 20px;
 }
 header {
   margin: 20px;
@@ -334,5 +367,7 @@ footer li {
 }
 
 main {
-  margin: 30px;
+  padding: 30px;
 }
+
+
