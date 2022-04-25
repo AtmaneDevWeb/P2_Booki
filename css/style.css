@@ -6,6 +6,9 @@
 }
 
 /* Page header + Navbar */
+header {
+  padding: 10px;
+}
 
 .logo-nav {
   display: flex;
@@ -110,8 +113,12 @@ form .search-icon {
   justify-content: center;
   align-items: center;
   border: 1px solid #0065fc;
-  border-radius: 15px;
+  border-radius: 22px;
   padding-right: 5px;
+}
+
+div .filter :hover {
+  margin-left: 5px;
 }
 .filter-list div:hover {
   flex-direction: row-reverse;
@@ -145,6 +152,8 @@ form .search-icon {
   background-color: white;
   border: 1px solid #f2f2f2;
 }
+
+
 .result-info {
   display: flex;
   align-items: center;
@@ -201,23 +210,26 @@ form .search-icon {
 /* most-popular class */
 sidebar .card {
   display: flex;
+  max-width: 100%;
   flex-wrap: wrap;
-  width: 100%;
-  
-}
-
-sidebar .card .stars {
-  margin-top: 40%;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px 10px 15px 10px;
+  background: white;
+  font-size: 13px;
+  box-shadow: 2px 2px 10px #cccccc;
 }
 
 #apartment-info .most-popular {
   width: 32%;
   padding: 10px;
   background-color: #f2f2f2;
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
 }
 
 .title-icon {
@@ -253,7 +265,11 @@ sidebar .card .stars {
 }
 
 .card .info {
-  margin-left: 20px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .most-popular .card a {
@@ -261,8 +277,10 @@ sidebar .card .stars {
   padding: 0;
 }
 .most-popular .card img {
-  height: 100%;
-  width: 33%;
+  height: 154px;
+  width: 120px;
+  margin: 5px 5px 0 5px;
+  border-radius: 15px 0px 0px 15px;
   object-fit: cover;
 }
 
@@ -276,17 +294,6 @@ sidebar .card .stars {
   font-size: 17px;
 }
 
-sidebar #card-7 {
-  height: 200px;
-}
-
-sidebar #card-8 {
-  height: 200px;
-}
-
-sidebar #card-9 {
-  height: 200px;
-}
 /* Activities Section */
 
 #activities-section {
@@ -304,6 +311,7 @@ section h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 0px;
 }
 
 .activitie-cards > div {
@@ -344,10 +352,6 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
-  padding-bottom: 20px;
-}
-header {
-  margin: 20px;
 }
 
 footer > div {
