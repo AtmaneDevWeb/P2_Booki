@@ -7,7 +7,7 @@
 
 /* Page header + Navbar */
 header {
-  padding: 10px;
+  padding:0px 10px  10px;
 }
 
 .logo-nav {
@@ -77,9 +77,9 @@ form {
 
 .search .map-color {
   display: flex;
-  height: 50px;
-  width: 37px;
-  border-radius: 10px 0 0 10px;
+  height: 53px;
+  width: 51px;
+  border-radius: 15px 0 0 15px;
   background: #f2f2f2;
   justify-content: center;
   align-items: center;
@@ -89,18 +89,20 @@ form {
 
 #typing-search {
   padding-left: 10px;
-  border: 1px solid lightgrey;
+  font-weight: bold;
+  border: 0.5px solid lightgrey;
   border-radius: 2px;
   width: 225px;
 }
 
 .btn-search {
-  border: 1px solid lightgray;
+  border: 0.5px solid lightgray;
   background-color: #0065fc;
   color: white;
   border-radius: 0 10px 10px 0;
-  height: 50px;
+  height: 51px;
   cursor: pointer;
+  margin-left: -2px;
 }
 
 form .search-icon {
@@ -112,17 +114,9 @@ form .search-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #0065fc;
+  border: 1px solid lightgray;
   border-radius: 22px;
   padding-right: 5px;
-}
-
-div .filter :hover {
-  margin-left: 5px;
-}
-.filter-list div:hover {
-  flex-direction: row-reverse;
-  padding-right: 0px;
 }
 
 .filter-list div:hover .color {
@@ -150,9 +144,13 @@ div .filter :hover {
 /* Result info */
 #icone-info {
   background-color: white;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #b9b5b5;
 }
 
+#icone-info:hover {
+  color: white;
+  background-color: #0065fc;
+}
 
 .result-info {
   display: flex;
@@ -203,22 +201,23 @@ div .filter :hover {
 }
 .marseille-apartment-list article {
   width: 33%;
-  background-color: white;
   padding: 10px;
 }
 
 /* most-popular class */
+sidebar .most-p {
+  display: bloc;
+  
+}
 sidebar .card {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
   border-radius: 20px;
-  padding: 5px;
-  margin: 20px 10px 15px 10px;
+  margin: 10px 0 10px 0px;
   background: white;
   font-size: 13px;
-  box-shadow: 2px 2px 10px #cccccc;
-}
+ }
 
 #apartment-info .most-popular {
   width: 32%;
@@ -254,8 +253,9 @@ sidebar .card {
 .card {
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 0 16px #f2f2f2;
+  box-shadow:-1px 2px 8px 8px #cccccc;
   margin-bottom: 15px;
+  padding: 5px;
 }
 .card img {
   height: 200px;
@@ -278,7 +278,7 @@ sidebar .card {
 }
 .most-popular .card img {
   height: 154px;
-  width: 120px;
+  max-width: 100px;
   margin: 5px 5px 0 5px;
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
@@ -291,7 +291,7 @@ sidebar .card {
 
 .afficher:hover {
   color: #0065fc;
-  font-size: 17px;
+  
 }
 
 /* Activities Section */
@@ -310,12 +310,12 @@ section h2 {
 .activitie-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 0px;
 }
 
 .activitie-cards > div {
-  width: 25%;
+  width: 24%;
 }
 
 .activites .img1 img {
@@ -352,23 +352,20 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
+  padding: 30px;
 }
 
 footer > div {
   width: 33%;
 }
-.about-footer h4 {
-  margin-left: 40px;
-}
 
-.hebergements-footer h4 {
-  margin-left: 40px;
-}
 
-.assistance-footer h4 {
-  margin-left: 40px;
-}
 
+
+
+footer ul {
+  padding: 0;
+}
 footer li {
   list-style: none;
 }

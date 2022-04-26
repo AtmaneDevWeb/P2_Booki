@@ -36,9 +36,9 @@ h1 {
     width: 400px;
   }
 
- form .search-icon {
+  form>span .search-icon {
   display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
@@ -50,6 +50,12 @@ h1 {
 
   form .btn-search {
     display: none;
+  }
+
+  
+
+  form .fa-search {
+    display: block;
   }
 
   .filter-list {

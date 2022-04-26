@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css" />
     <title>Booki</title>
   </head>
   <body>
@@ -47,15 +47,20 @@
             value="Marseille, France"
             placeholder="Saisissez votre localisation"
           />
-          <span><i class="fas fa-search search-icon" aria-hidden="true"></i></span><span><button type="submit" class="btn-search">Rechercher</button></span>
-          
+          <button type="submit" class="btn-search">
+            <span>Rechercher</span>
+            
+          </button>
+          <span 
+              ><i class="fas fa-search search-icon"></i
+            ></span>
         </form>
         <!-- Filters -->
         <div class="filter-list">
           <span>Filtres</span>
           <div class="filter">
-            <i  class="fas fa-money-bill-wave-alt color"></i>
-            
+            <i class="fas fa-money-bill-wave-alt color"></i>
+
             <span>Economique</span>
           </div>
           <div class="filter">
@@ -218,69 +223,68 @@
             <a href="#" id="icon"><i class="fas fa-chart-line"></i></a>
           </div>
           <!-- card number 7 -->
-          <article class="card" id="card-7">
-            <a href="#">
-              <img
-                src="assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                alt="auberge canebière"
-              />
-
-              <div class="info">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de <strong>128€</strong></p>
-                <p class="stars">
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <!-- card number 8 -->
-          <article class="card" id="card-8">
-            <a href="#">
-              <img
-                src="assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                alt="auberge canebière"
-              />
-              <div class="info">
-                <h3>Au coeur de l'eau</h3>
-                <h3>Chambre d'hôtes</h3>
-                <p>Nuit à partir de <strong>71€</strong></p>
-                <p class="stars">
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star grey"></i>
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <!-- card number 9 -->
-          <article class="card" id="card-9">
-            <a href="#">
-              <img
-                src="assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                alt="auberge canebière"
-              />
-              <div class="info">
-                <h3>Hôtel Tout bleu et blanc</h3>
-                <p>Nuit à partir de <strong>68€</strong></p>
-                <p class="stars">
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star blue"></i>
-                  <i class="fas fa-star grey"></i>
-                </p>
-              </div>
-            </a>
-          </article>
+          <div class="most-p">
+            <article class="card" id="card-7">
+              <a href="#">
+                <img
+                  src="assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  alt="auberge canebière"
+                />
+                <div class="info">
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de <strong>128€</strong></p>
+                  <p class="stars">
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- card number 8 -->
+            <article class="card" id="card-8">
+              <a href="#">
+                <img
+                  src="assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt="auberge canebière"
+                />
+                <div class="info">
+                  <h3>Au coeur de l'eau</h3>
+                  <h3>Chambre d'hôtes</h3>
+                  <p>Nuit à partir de <strong>71€</strong></p>
+                  <p class="stars">
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star grey"></i>
+                  </p>
+                </div>
+              </a>
+            </article>
+            <!-- card number 9 -->
+            <article class="card" id="card-9">
+              <a href="#">
+                <img
+                  src="assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                  alt="auberge canebière"
+                />
+                <div class="info">
+                  <h3>Hôtel Tout bleu et blanc</h3>
+                  <p>Nuit à partir de <strong>68€</strong></p>
+                  <p class="stars">
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star blue"></i>
+                    <i class="fas fa-star grey"></i>
+                  </p>
+                </div>
+              </a>
+            </article>
+          </div>
         </sidebar>
       </section>
 
