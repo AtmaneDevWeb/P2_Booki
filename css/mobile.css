@@ -38,13 +38,13 @@ h1 {
 
   form>span .search-icon {
   display: flex;
-    /* justify-content: center; */
+    
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     font-size: 13px;
     background-color: #0065fc;
-    height: 50px;
+    height: 55px;
     width: 50px;
   }
 
