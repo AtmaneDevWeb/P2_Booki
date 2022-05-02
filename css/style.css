@@ -202,7 +202,7 @@ form .search-icon {
 /* marseille-apartment-list class */
 .marseille-apartment-list {
   background-color: #f2f2f2;
-
+  padding-bottom: 35px;
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
@@ -235,15 +235,23 @@ form .search-icon {
 
 /* most-popular class */
 sidebar .most-p {
-  display: bloc;
-  
-}
+  display:block;
+  }
+
+  sidebar .most-p p {
+    padding-bottom: 37px;
+  }
+
+  sidebar .most-p .stars {
+    padding-bottom: 13px;
+  }
+
 sidebar .card {
-  isplay: flex;
-    max-width: 77%;
+  display: flex;
+    max-width: 100%;
     flex-wrap: wrap;
     border-radius: 20px;
-    margin: 34px 0 10px 0px;
+    margin: 35px 0 10px 0px;
     background: white;
     font-size: 13px;
 }
@@ -274,6 +282,7 @@ sidebar .card {
   height: 100%;
   margin-top: 27px;
   margin-left: 20px;
+  padding-right: 3px;
 }
 
 #icon :hover {
@@ -317,7 +326,7 @@ sidebar .card {
 
 .afficher {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .afficher:hover {
@@ -355,23 +364,23 @@ section h2 {
 } 
 
 .activites img{
-  height: 530px;
+  height: 300px;
 }
  
 .activites2 .img2 img {
-    height: 240px;
+    height: 150px;
 }
 
 .activites2 .img3 img {
-   height: 200px;
+   height: 90px;
 }
 
 .activites2 .img5 img {
-   height: 240px;
+   height: 150px;
 }
 
 .activites2 .img6 img {
-  height: 200px;
+  height: 90px;
 }
 
 footer {
