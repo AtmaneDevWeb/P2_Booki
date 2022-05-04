@@ -1,33 +1,60 @@
 /* Media Queries Mobile  */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
+  body {
+    margin-left:0px;
+  }
   /*------- Header page ------------*/
+  header {
+    padding-left: 0px;
+  }
   .logo-nav {
+    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    padding-top: 27px;
   }
 
   #logo {
-    max-width: 100px;
+    width: 100px;
+   
+    
   }
-
+nav a {
+  border-bottom: 4px solid #f2f2f2;
+}
   .sub_nav {
     width: 100%;
-  }
+      }
 
   .sub_nav a {
     width: 50%;
     text-align: center;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 76px;
   }
 
   .sub_nav a:hover {
-    border-bottom: 3px solid #0065fc;
+    border-bottom: 4px solid #0065fc;
     border-top: 3px solid transparent;
   }
 /*------- Main part ------------*/
+main {
+  padding-left: 0px;
+}
 
+main .search {
+  margin-left: 20px;
+}
 /* Search section */
+
+main .search h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 h1 {
   font-size: 21px;
   font-weight: bold;
@@ -35,13 +62,16 @@ h1 {
   .search form {
     width: 400px;
   }
-
+  .search .map-color {
+    height: 55px;
+  }
   form>span .search-icon {
   display: flex;
     
     color: white;
     cursor: pointer;
-    border-radius: 0 10px 10px 0;
+    border-radius: 15px;
+    margin-left: -15px;
     font-size: 13px;
     background-color: #0065fc;
     height: 55px;
@@ -57,11 +87,28 @@ h1 {
   form .fa-search {
     display: block;
   }
-
+#icon {
+  padding-bottom: 20px;
+  width: 20px;
+}
+#typing-search  {
+  font-size: 20px;
+  padding-left: 14px;
+    padding-right: 14px;
+    width: 245px;
+}
   .filter-list {
     flex-direction: column;
     align-items:flex-start;
     padding-bottom: 20px;
+  }
+
+  .filter-list span {
+    padding-left: 0px;
+  }
+
+  .search i {
+    border-radius: 50px;
   }
 
 #apartment-info {
@@ -74,12 +121,15 @@ h1 {
 .activitie-cards {
   flex-direction: column;
 }
-#apartment-info .most-popular {
-  width: 100%;
-}
+
 .most-popular {
   order: -1;
-  }
+  order: -1;
+    width: 100%;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+  
 
   #apartment-info .marseille-hebergement {
     display: block;
@@ -122,9 +172,28 @@ div .activites2 .img {
   
 footer {
   flex-direction: column;
+  width: 93%;
+  padding: 10px;
+    padding-left: 33px;
 }
-  
-
-
-
- 
+footer h4 {
+  margin-bottom: 0px;
+  font-weight:900;
+  font-size: larger;
+}
+footer a {
+  font-size: 17px;
+  font-weight:500;
+}
+footer #about{
+  width: 237px;
+  line-height: 33px;
+} 
+footer .hebergements-footer{
+  width: 237px;
+  line-height: 33px;
+}
+footer #assistance {
+  line-height: 33px;
+}
+}
