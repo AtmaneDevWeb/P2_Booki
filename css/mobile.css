@@ -1,8 +1,8 @@
 /* Media Queries Mobile  */
 @media (max-width: 767px) {
 
-  body {
-    margin-left:0px;
+  body * {
+   box-sizing: border-box;
   }
   /*------- Header page ------------*/
   header {
@@ -19,9 +19,9 @@
 
   #logo {
     width: 100px;
+   }
+
    
-    
-  }
 nav a {
   border-bottom: 4px solid #f2f2f2;
 }
@@ -78,7 +78,7 @@ h1 {
     font-size: 13px;
     background-color: #0065fc;
     height: 55px;
-    width: 50px;
+    width: 55px;
   }
 
   form .btn-search {
@@ -92,7 +92,7 @@ h1 {
   }
 #icon {
   padding-bottom: 20px;
-  width: 20px;
+  padding-right:91px;
 }
 #typing-search  {
   font-size: 20px;
@@ -110,8 +110,8 @@ h1 {
   .filter-list .filter {
     height: 50px;
     border-radius: 50px;
-    padding-right: 5px;
-   }
+    padding-right: 17px;
+}
 
   .search i {
     border-radius: 50px;
@@ -119,28 +119,56 @@ h1 {
     width: 51px;
     
   }
-
+  #icone-info {
+    width: 25px;
+    height: 25px;
+  }
+  .result-info p {
+    font-size: 20px;
+  }
+  
 #apartment-info {
   flex-direction: column;
 }
  .marseille-apartment-list {
   flex-direction: column;
+  background-color: white;
+  padding-left: 15px;
+  width: 75%;
 }
 
 .activitie-cards {
   flex-direction: column;
 }
+sidebar .most-p {
+  padding-left: 15px;
+}
 
+.most-popular  img {
+  width: 300px;
+}
 .most-popular {
   order: -1;
-  width: 62%;
+  width: 84%;
   border-radius: 0px;
+  padding-right: 0px;
+  padding-left: 10px;
   }
-  
-
+.most-popular h2 {
+  font-size: 23px;
+  padding-left: 13px;
+}
+.most-popular .card img{
+  max-width: 41%;
+}
   #apartment-info .marseille-hebergement {
     display: block;
     width: 100%;
+    background-color: white;
+  }
+  .marseille-hebergement h2 {
+    font-size: 23px;
+    padding-top: 5px;
   }
   .marseille-hebergement .card {
     width: 100%;
@@ -203,4 +231,6 @@ footer .hebergements-footer{
 footer #assistance {
   line-height: 33px;
 }
+
+
 }
