@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  #apartment-info .marseille-hebergement {
+    width: 57%;  
+  }
+
+  .most-popular {
+      width: 40%;
+      justify-content: space-between;
+  }
+
+  .marseille-apartment-list {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .marseille-apartment-list article {
+      width: 50%;
+      margin-right: -28px;
+}
+.marseille-hebergement h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.title-icon {
+    padding-top: 5px;
+}
+sidebar .most-p {
+    padding-bottom: 127px;
+}
+sidebar .most-p article {
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+}

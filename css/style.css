@@ -9,6 +9,10 @@
 header {
   padding:0px 10px  10px;
 }
+header img {
+  height: 45px;
+  margin-top: 14px;
+}
 
 .logo-nav {
   display: flex;
@@ -28,9 +32,7 @@ nav {
   flex-wrap: wrap;
 }
 
-#logo {
-  max-width: 130px;
-}
+
 
 nav a {
   padding: 30px;
@@ -50,6 +52,7 @@ nav a:hover {
 .search h1 {
   font-size: 25px;
 }
+
 main {
   padding: 30px;
 }
@@ -98,12 +101,14 @@ form {
 
 .btn-search {
   border: 0.5px solid lightgray;
-  background-color: #0065fc;
-  color: white;
-  border-radius: 0 10px 10px 0;
-  height: 55px;
-  cursor: pointer;
-  margin-left: -4px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0 17px 17px 0; 
+       height: 55px;
+    cursor: pointer;
+    margin-left: -4px;
+    font-weight: bold;
+    width: 119px;
 }
 
 form .search-icon {
@@ -126,7 +131,7 @@ form .search-icon {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-top: 20px;
+  padding: 33px 0px 40px 0px ;
   flex-wrap: wrap;
   font-weight:bold;
 }
@@ -162,7 +167,8 @@ form .search-icon {
 .result-info {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  
 }
 
 .fas .fa-info {
@@ -170,11 +176,17 @@ form .search-icon {
 }
 
 .result-info p {
-  margin-left: 20px;
+  padding-left: 20px;
+  padding-top:20px;
+  margin:0;
+  padding-bottom: 23px;
 }
 
 /*  Apartment + Most popular section */
 /* Stars color */
+.fa-star {
+  font-size: 13px;
+}
 .blue {
   color: blue;
 }
@@ -198,18 +210,29 @@ form .search-icon {
     padding: 10px 10px;
     border-radius: 20px;
 }
+.marseille-hebergement h2{
+  margin: 0px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    padding-left: 29px;
+
+}
+.marseille-hebergement .info .stars {
+  margin-bottom: -4px;
+}
 
 /* marseille-apartment-list class */
 .marseille-apartment-list {
   background-color: #f2f2f2;
-  padding-bottom: 35px;
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 33px 0px 30px;
 }
 .marseille-apartment-list article {
   width: 31%;
   padding: 4px;
+  /* margin-bottom: 20px; */
 }
 .marseille-apartment-list .card img {
   height: 130px;
@@ -222,10 +245,18 @@ form .search-icon {
 .info h3 {
   margin-bottom: -1px;
   margin-top: 5px;
+  font-size: 17px;
+  
 }
 
+
 .info p {
- margin-top:5px ;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  padding-top: 7px;
+    padding-bottom: 11px;
 }
 
 .info .stars {
@@ -236,10 +267,12 @@ form .search-icon {
 /* most-popular class */
 sidebar .most-p {
   display:block;
+  padding: 10px 32px 16px 27px;
   }
 
   sidebar .most-p p {
     padding-bottom: 37px;
+    
   }
 
   sidebar .most-p .stars {
@@ -250,8 +283,7 @@ sidebar .card {
   display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-    border-radius: 15px;
-    margin: 35px 0 10px 0px;
+   
     background: white;
     font-size: 13px;
 }
@@ -272,7 +304,7 @@ sidebar .card {
   justify-content: space-between;
   font-size: 25px;
   align-items: center;
-  margin-bottom: -33px;
+ 
 }
 
 #icon {
@@ -280,9 +312,8 @@ sidebar .card {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  margin-top: 27px;
-  margin-left: 20px;
-  padding-right: 3px;
+  padding-right: 35px;
+  padding-top:40px
 }
 
 #icon :hover {
@@ -292,7 +323,7 @@ sidebar .card {
   background-color: white;
   border-radius: 20px;
   box-shadow:-1px 2px 8px 8px #cccccc;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   
 }
 .card img {
@@ -309,9 +340,14 @@ sidebar .card {
   justify-content: space-around;
   width: 100%;
 }
-.most-popular .title-icon {
-  padding-top: 12px;
+.most-popular h2{
+  margin: 0;
+    padding-top: 41px;
+    padding-left: 25px;
+    padding-bottom: 17px;
 }
+  
+
 .most-popular .card a {
   display: flex;
   padding: 0;
@@ -325,10 +361,11 @@ sidebar .card {
   object-fit: cover;
 }
 
+
 .afficher {
   font-weight: bold;
   font-size: 18px;
-}
+  }
 
 .afficher:hover {
   color: #0065fc;
