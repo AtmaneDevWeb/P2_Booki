@@ -227,7 +227,7 @@ form .search-icon {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 33px 0px 30px;
+    padding: 46px 33px 0px 30px;
 }
 .marseille-apartment-list article {
   width: 31%;
@@ -323,7 +323,7 @@ sidebar .card {
   background-color: white;
   border-radius: 20px;
   box-shadow:-1px 2px 8px 8px #cccccc;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
   
 }
 .card img {
@@ -376,15 +376,19 @@ sidebar .card {
 
 #activities-section {
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 
 section h2 {
   font-size: 20px;
-  font-weight: bold;
-  font-family: "Raleway-Bold", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-family: "Raleway-Bold", sans-serif;
 }
+
  
 
 .activitie-cards {
@@ -396,10 +400,25 @@ section h2 {
 
 .activitie-cards > div {
   width: 24%;
+  height: 392px;
+}
+.activitie-cards > div h3 {
+  margin: 0;
+  padding-left: 27px;
+  padding-top: 13px;
+  padding-bottom: 16px;
+  font-size: 17px;
 }
 .activitie-cards .activites .card{
   height: 100%;
 }
+.activitie-cards .img1 img {
+  height: 340px;
+}
+.activitie-cards .img4 img {
+  height: 340px;
+}
+
 .activitie-cards img {
   max-width: 100% !important;
   border-radius: 15px 15px 0 0;
@@ -408,7 +427,9 @@ section h2 {
 .activites img{
   height: 300px;
 }
- 
+div .activites2 article .card a{
+  padding-bottom: 10px;
+}
 .activites2 .img2 img {
     height: 150px;
 }
