@@ -68,8 +68,8 @@ main {
   color: #0065fc;
   border-radius: 50%;
   background-color: #deebff;
-  height: 33px;
-  width: 31px;
+  height: 22px;
+  width: 22px;
   justify-content: center;
   align-items: center;
 }
@@ -137,6 +137,10 @@ form .search-icon {
 }
 .filter-list  span {
   padding-left: 15px;
+}
+.filter-list .filter i {
+  height: 33px;
+  width: 33px;
 }
 .filter-list div:hover .color {
   color: whitesmoke;
@@ -207,13 +211,13 @@ form .search-icon {
 /* marseille-hebergement class */
 #apartment-info .marseille-hebergement {
   width: 65%;
-    padding: 10px 10px;
+    padding: 34px 10px;
     border-radius: 20px;
 }
 .marseille-hebergement h2{
   margin: 0px;
-    padding-top: 33px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     padding-left: 29px;
 
 }
@@ -291,7 +295,7 @@ sidebar .card {
 
 .most-popular {
   width: 32%;
-  padding: 10px ;
+  padding-top: 37px ;
   background-color: #f2f2f2;
   justify-content: space-around;
   display: flex;
@@ -313,7 +317,7 @@ sidebar .card {
   align-items: center;
   height: 100%;
   padding-right: 35px;
-  padding-top:40px
+  padding-top:18px
 }
 
 #icon :hover {
@@ -322,7 +326,7 @@ sidebar .card {
 .card {
   background-color: white;
   border-radius: 20px;
-  box-shadow:-1px 2px 8px 8px #cccccc;
+  box-shadow:8px 8px 14px 0px #cccccc;
   margin-bottom: 45px;
   
 }
@@ -342,9 +346,9 @@ sidebar .card {
 }
 .most-popular h2{
   margin: 0;
-    padding-top: 41px;
+    padding-top: 20px;
     padding-left: 25px;
-    padding-bottom: 17px;
+    padding-bottom: 27px;
 }
   
 
@@ -365,6 +369,7 @@ sidebar .card {
 .afficher {
   font-weight: bold;
   font-size: 18px;
+  padding-left: 34px;
   }
 
 .afficher:hover {
@@ -401,6 +406,7 @@ section h2 {
 .activitie-cards > div {
   width: 24%;
   height: 392px;
+  padding-right: 22px;
 }
 .activitie-cards > div h3 {
   margin: 0;
@@ -409,6 +415,8 @@ section h2 {
   padding-bottom: 16px;
   font-size: 17px;
 }
+
+
 .activitie-cards .activites .card{
   height: 100%;
 }
@@ -439,11 +447,11 @@ div .activites2 article .card a{
 }
 
 .activites2 .img5 img {
-   height: 150px;
+   height: 122px;
 }
 
 .activites2 .img6 img {
-  height: 90px;
+  height: 117px;
 }
 
 footer {
@@ -451,6 +459,7 @@ footer {
   justify-content: space-between;
   background-color: #f2f2f2;
   padding: 30px;
+  margin-top:36px;
 }
 
 footer > div {
@@ -462,7 +471,10 @@ footer ul {
 }
 footer li {
   list-style: none;
+  padding:5px
 }
+
+
 
 main {
   padding: 30px;

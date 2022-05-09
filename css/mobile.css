@@ -130,6 +130,11 @@ h1 {
 #apartment-info {
   flex-direction: column;
 }
+
+.card {
+  width: 250px;
+  height: 150px;
+}
  .marseille-apartment-list {
   flex-direction: column;
   background-color: white;
@@ -152,7 +157,7 @@ sidebar .most-p {
   width: 84%;
   border-radius: 0px;
   padding-right: 0px;
-  padding-left: 10px;
+  padding-left: 138px;
   }
 .most-popular h2 {
   font-size: 23px;
