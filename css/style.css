@@ -405,7 +405,7 @@ section h2 {
 
 .activitie-cards > div {
   width: 24%;
-  height: 392px;
+  height: 100%;
   padding-right: 22px;
 }
 .activitie-cards > div h3 {

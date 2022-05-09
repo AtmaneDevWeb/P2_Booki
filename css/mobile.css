@@ -19,6 +19,7 @@
 
   #logo {
     width: 100px;
+    margin-left: 150px;
    }
 
    
@@ -113,6 +114,11 @@ h1 {
     padding-right: 17px;
 }
 
+.filter-list .filter i {
+  width: 50px;
+  height: 50px;
+}
+
   .search i {
     border-radius: 50px;
     height: 51px;
@@ -131,10 +137,7 @@ h1 {
   flex-direction: column;
 }
 
-.card {
-  width: 250px;
-  height: 150px;
-}
+
  .marseille-apartment-list {
   flex-direction: column;
   background-color: white;
@@ -142,11 +145,15 @@ h1 {
   width: 75%;
 }
 
-.activitie-cards {
-  flex-direction: column;
-}
+
 sidebar .most-p {
   padding-left: 15px;
+}
+
+.most-p .card {
+  height: 70%;
+  max-width: 80%;
+ 
 }
 
 .most-popular  img {
@@ -154,7 +161,7 @@ sidebar .most-p {
 }
 .most-popular {
   order: -1;
-  width: 84%;
+  width: 100%;
   border-radius: 0px;
   padding-right: 0px;
   padding-left: 138px;
@@ -170,46 +177,58 @@ sidebar .most-p {
     display: block;
     width: 100%;
     background-color: white;
+    padding-left: 150px;
   }
   .marseille-hebergement h2 {
     font-size: 23px;
     padding-top: 5px;
+    padding-left: 8px;
   }
   .marseille-hebergement .card {
     width: 100%;
+    height: 215px;
   }
-
- div .activites2 {
+  #activities-section{
+    padding-left: 150px;
+  }
+  #activities-section h2 {
+    padding-left: 27px;
+  }
  
-    display: flex;
+  .activitie-cards {
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
- }
+    padding-left: 100px;
+  }
+.activitie-cards .card {
+  width: 335%;
+  height: 200px;
+}
+.activitie-cards > div {
+  width: 33%;
+  height: 100%;
+  padding-right: 22px;
+  padding-left: 10px;
+  margin-left: -102px;
+}
  div .activites {
    display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  ;
+}
+div .activites2 {
+ 
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.activites .img1 img {
+.activites .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img {
   max-width: 100%;
-  height: 250px;
+  height: 150px;
 }
-div .activites2 .img {
-  width: 100%;
-}
-  div .card {
-    width: 80%;
-  }
-  
+
+
+   
 footer {
   flex-direction: column;
   width: 93%;
