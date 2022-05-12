@@ -202,22 +202,25 @@ form .search-icon {
 #apartment-info {
   display: flex;
   justify-content: space-between;
+  padding-right: 10px;
 }
 #apartment-info > div {
   background-color: #f2f2f2;
   border-radius: 10px;
-  /* margin-left: 20px; */
+  
 }
 
 /* marseille-hebergement class */
 #apartment-info .marseille-hebergement {
   width: 65%;
+  padding-right: 38px;
+  padding-left: 38px;
     
     border-radius: 20px;
 }
 .marseille-hebergement h2{
   margin: 0px;
-    
+     
 
 }
 .marseille-hebergement .info .stars {
@@ -234,6 +237,7 @@ form .search-icon {
 }
 .marseille-apartment-list article {
   width: 31%;
+  padding: 4px;
   
 }
 .marseille-apartment-list .card img {
@@ -298,6 +302,8 @@ sidebar .card {
   display: flex;
   flex-direction: column;
   border-radius: 25px;
+  padding-right: 38px;
+  padding-left: 38px;
  }
 
 .title-icon {
@@ -353,9 +359,7 @@ padding: 4px;
 }
 .most-popular .card img {
   height: 154px;
-  max-width: 100px;
-  padding: 5px;
-  /* margin: 5px 5px 0 5px; */
+  width: 37%;
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
 }
@@ -376,19 +380,9 @@ padding: 4px;
 
 #activities-section {
   width: 100%;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
-
-section h2 {
-  font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-   
-    font-family: "Raleway-Bold", sans-serif;
-}
-
- 
 
 .activitie-cards {
   display: flex;
@@ -398,9 +392,9 @@ section h2 {
 }
 
 .activitie-cards > div {
-  width: 24%;
+  width: 23%;
   height: 100%;
-  padding-right: 22px;
+ 
 }
 .activitie-cards > div h3 {
   margin: 0;
@@ -411,8 +405,9 @@ section h2 {
 }
 
 
-.activitie-cards .activites .card{
+.activitie-cards  .card{
   height: 100%;
+  padding: 0;
 }
 
 
@@ -470,6 +465,13 @@ footer li {
 
 main {
   padding: 30px;
+  
 }
 
- 
+ main h2 {
+   padding-top: 32px;
+   padding-bottom: 20px;
+   font-size: 20px;
+    font-weight: bold;
+    font-family: "Raleway-Bold", sans-serif;
+ }
