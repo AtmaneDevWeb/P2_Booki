@@ -95,8 +95,8 @@ form {
   font-weight: bold;
   border: 0.5px solid lightgrey;
   border-radius: 2px;
-  
-  width: 225px;
+  width: 19%;
+  min-width: 160px;
 }
 
 .btn-search {
@@ -108,7 +108,8 @@ form {
     cursor: pointer;
     margin-left: -4px;
     font-weight: bold;
-    width: 119px;
+    width: 10%;
+    min-width: 120px;
 }
 
 form .search-icon {
@@ -211,14 +212,12 @@ form .search-icon {
 /* marseille-hebergement class */
 #apartment-info .marseille-hebergement {
   width: 65%;
-    padding: 34px 10px;
+    
     border-radius: 20px;
 }
 .marseille-hebergement h2{
   margin: 0px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    padding-left: 29px;
+    
 
 }
 .marseille-hebergement .info .stars {
@@ -231,12 +230,11 @@ form .search-icon {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    padding: 46px 33px 0px 30px;
+    
 }
 .marseille-apartment-list article {
   width: 31%;
-  padding: 4px;
-  /* margin-bottom: 20px; */
+  
 }
 .marseille-apartment-list .card img {
   height: 130px;
@@ -271,7 +269,7 @@ form .search-icon {
 /* most-popular class */
 sidebar .most-p {
   display:block;
-  padding: 10px 32px 16px 27px;
+  
   }
 
   sidebar .most-p p {
@@ -295,7 +293,6 @@ sidebar .card {
 
 .most-popular {
   width: 32%;
-  padding-top: 37px ;
   background-color: #f2f2f2;
   justify-content: space-around;
   display: flex;
@@ -316,8 +313,7 @@ sidebar .card {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding-right: 35px;
-  padding-top:18px
+  
 }
 
 #icon :hover {
@@ -327,6 +323,7 @@ sidebar .card {
   background-color: white;
   border-radius: 20px;
   box-shadow:8px 8px 14px 0px #cccccc;
+padding: 4px;
   margin-bottom: 45px;
   
 }
@@ -346,9 +343,7 @@ sidebar .card {
 }
 .most-popular h2{
   margin: 0;
-    padding-top: 20px;
-    padding-left: 25px;
-    padding-bottom: 27px;
+    
 }
   
 
@@ -389,8 +384,7 @@ section h2 {
   font-size: 20px;
     font-weight: bold;
     margin: 0;
-    padding-top: 33px;
-    padding-bottom: 33px;
+   
     font-family: "Raleway-Bold", sans-serif;
 }
 
