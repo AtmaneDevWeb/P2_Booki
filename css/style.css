@@ -237,8 +237,6 @@ form .search-icon {
 }
 .marseille-apartment-list article {
   width: 31%;
-  padding: 4px;
-  
 }
 .marseille-apartment-list .card img {
   height: 130px;
@@ -318,7 +316,7 @@ sidebar .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 20%;
   
 }
 
@@ -380,6 +378,7 @@ padding: 4px;
 
 #activities-section {
   width: 100%;
+  
   margin-top: 20px;
 }
 
@@ -393,8 +392,11 @@ padding: 4px;
 
 .activitie-cards > div {
   width: 23%;
-  height: 100%;
- 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 .activitie-cards > div h3 {
   margin: 0;
@@ -406,10 +408,13 @@ padding: 4px;
 
 
 .activitie-cards  .card{
-  height: 100%;
+  
   padding: 0;
 }
 
+.activitie-cards article {
+  margin: 0;
+}
 
 
 .activitie-cards img {
@@ -431,10 +436,10 @@ div .activites2 article .card a{
    height: 112px;
 }
 .activitie-cards .img4 img {
-  height: 340px;
+  height: 362px;
 }
 .activites2 .img5 img {
-   height: 122px;
+   height: 150px;
 }
 
 .activites2 .img6 img {
