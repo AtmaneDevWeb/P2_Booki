@@ -274,12 +274,7 @@ sidebar .most-p {
   
   }
 
-  sidebar .most-p p {
-    padding-bottom: 37px;
-    
-  }
-
-  sidebar .most-p .stars {
+    sidebar .most-p .stars {
     padding-bottom: 13px;
   }
 
@@ -474,9 +469,13 @@ main {
 }
 
  main h2 {
+   margin: 0;
    padding-top: 32px;
    padding-bottom: 20px;
    font-size: 20px;
     font-weight: bold;
     font-family: "Raleway-Bold", sans-serif;
  }
+
+
+ 
