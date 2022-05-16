@@ -268,8 +268,9 @@ footer .hebergements-footer{
   width: 300px;
   line-height: 33px;
 }
-footer #assistance {
+#assistance ul {
   width: 300px;
+  min-width: 260px;
   line-height: 33px;
 }
 }
