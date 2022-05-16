@@ -249,6 +249,8 @@ footer {
   width: 100%;
   margin: 0;
 }
+
+
 footer h4 {
   margin-bottom: 0px;
   font-weight:900;
@@ -259,14 +261,15 @@ footer a {
   font-weight:500;
 }
 footer #about{
-  width: 237px;
+  width: 300px;
   line-height: 33px;
 } 
 footer .hebergements-footer{
-  width: 237px;
+  width: 300px;
   line-height: 33px;
 }
 footer #assistance {
+  width: 300px;
   line-height: 33px;
 }
 }
