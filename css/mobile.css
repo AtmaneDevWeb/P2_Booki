@@ -6,21 +6,16 @@
   }
   /*------- Header page ------------*/
   header {
-    padding-left: 0px;
+    padding: 0px;
   }
   .logo-nav {
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-top: 27px;
+    display: block;
+    text-align: center;
   }
 
   #logo {
     width: 100px;
-    margin-left: 150px;
-   }
+    }
 
    
 nav a {
@@ -44,13 +39,14 @@ nav a {
   }
 /*------- Main part ------------*/
 main {
-  padding-left: 0px;
+  padding: 0px;
 }
 
 
 /* Search section */
 main .search {
-  padding-left: 20px;
+  padding-top: 35px;
+  padding-left: 25px
 }
 main .search h1 {
   margin-top: 0px;
@@ -61,7 +57,6 @@ h1 {
   font-weight: bold;
 }
   .search form {
-    width: 400px;
     padding-top: 22px;
     padding-bottom: 20px;
 }
@@ -128,9 +123,11 @@ h1 {
   #icone-info {
     width: 25px;
     height: 25px;
+    flex-shrink: 0;
   }
   .result-info p {
-    font-size: 20px;
+    font-size: 17px;
+    padding-bottom: 14px;
   }
   
 #apartment-info {
@@ -141,7 +138,6 @@ h1 {
  .marseille-apartment-list {
   flex-direction: column;
   background-color: white;
-  padding-left: 15px;
   width: 75%;
   padding-bottom: 20px;
 }
@@ -162,15 +158,14 @@ h1 {
   width: 100%;
   border-radius: 0px;
   padding-right: 0px;
-  margin-left: -20px;
   margin-bottom: 32px;
   padding-bottom: 20px;
+  padding-left: 20px;
   
   }
 .most-popular h2 {
   font-size: 23px;
-  padding-left: 13px;
-}
+ }
 .most-popular .card img{
   max-width: 41%;
 }
@@ -178,12 +173,12 @@ h1 {
     display: block;
     width: 100%;
     background-color: transparent;
-    padding: 0;
+    padding-left: 20px;
   }
   .marseille-hebergement h2 {
     font-size: 23px;
     padding-top: 5px;
-    padding-left: 8px;
+    
   }
   .marseille-hebergement .card {
     width: 100%;
@@ -192,7 +187,9 @@ h1 {
     flex-direction: column;
     margin-bottom: 20px;
 }
-
+.afficher {
+  display: none;
+}
 
   #activities-section{
     margin-top: 50px;
@@ -232,6 +229,7 @@ div .activites2 {
   flex-direction: column;
   
 }
+
 
 .activites .img1 img, .img2 img, .img3 img, .img5 img, .img6 img {
   max-width: 100%;
