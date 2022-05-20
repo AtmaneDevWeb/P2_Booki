@@ -149,7 +149,8 @@ h1 {
 
 .most-p .card {
   height: 70%;
-  /* max-width: 80%; */
+  max-width: 100%;
+  min-width: 300px;
  margin-bottom: 20px;
 }
 
