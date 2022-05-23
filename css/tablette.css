@@ -35,19 +35,16 @@ sidebar .most-p article {
     margin-top: 20px;
 }
 .activitie-cards div {
-    width:50%;
+    width:47%;
     
 }
-.activites .card {
-    margin-bottom: 10px;
-}
+
 div .imgactivites {
     width: 100%;
-    order:-1;
-}
+    }
+    .activitie-cards .card {
+        margin-bottom: 47px;
+    }
 
-div .actites2 {
-    order: 2;
-}
-
+    
 }
