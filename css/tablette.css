@@ -2,7 +2,9 @@
   #apartment-info .marseille-hebergement {
     width: 57%;  
   }
-
+.info h3 {
+    font-size: 15px;
+}
   .most-popular {
       width: 40%;
       justify-content: space-between;
@@ -31,6 +33,21 @@ sidebar .most-p {
 sidebar .most-p article {
     padding-bottom: 20px;
     margin-top: 20px;
+}
+.activitie-cards div {
+    width:50%;
+    
+}
+.activites .card {
+    margin-bottom: 10px;
+}
+div .imgactivites {
+    width: 100%;
+    order:-1;
+}
+
+div .actites2 {
+    order: 2;
 }
 
 }
