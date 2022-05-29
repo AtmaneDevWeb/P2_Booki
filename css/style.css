@@ -157,7 +157,7 @@ form .search-icon {
 }
 .filter-list div:hover {
   cursor: pointer;
-  background-color: #f2f2f2;
+  background-color: #ebe6e6;
 }
 
 /* Result info */
@@ -271,7 +271,7 @@ form .search-icon {
 }
 
 /* most-popular class */
-div .most-p {
+container .most-p {
   display:block;
   
   }
@@ -280,7 +280,7 @@ div .most-p {
     padding-bottom: 0px;
   }
 
-div .card {
+container .card {
   display: flex;
     max-width: 100%;
     flex-wrap: wrap;
