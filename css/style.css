@@ -271,16 +271,16 @@ form .search-icon {
 }
 
 /* most-popular class */
-sidebar .most-p {
+div .most-p {
   display:block;
   
   }
 
-    sidebar .most-p .stars {
+    div .most-p .stars {
     padding-bottom: 0px;
   }
 
-sidebar .card {
+div .card {
   display: flex;
     max-width: 100%;
     flex-wrap: wrap;
