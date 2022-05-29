@@ -271,7 +271,7 @@ form .search-icon {
 }
 
 /* most-popular class */
-container .most-p {
+aside .most-p {
   display:block;
   
   }
@@ -280,7 +280,7 @@ container .most-p {
     padding-bottom: 0px;
   }
 
-container .card {
+aside .card {
   display: flex;
     max-width: 100%;
     flex-wrap: wrap;
