@@ -157,7 +157,7 @@ form .search-icon {
 }
 .filter-list div:hover {
   cursor: pointer;
-  background-color: #ebe6e6;
+  background-color: #f2f2f2;
 }
 
 /* Result info */
@@ -284,7 +284,7 @@ aside .card {
   display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-   
+   min-width: 235px;
     background: white;
     font-size: 13px;
 }
