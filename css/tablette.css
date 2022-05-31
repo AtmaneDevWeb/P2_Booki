@@ -19,6 +19,9 @@
       width: 50%;
       margin-right: -28px;
 }
+.afficher {
+    display: inline-block;
+    margin: 0 0 15px;}
 .marseille-hebergement h2 {
     text-align: center;
     padding-bottom: 20px;

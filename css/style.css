@@ -355,15 +355,17 @@ padding: 4px;
 .most-popular .card img {
   height: 162px;
   width: 37%;
-  min-width: 150px;
+  min-width: 160px;
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
 }
 
 
 .afficher {
+  display: block;
   font-weight: bold;
   font-size: 18px;
+  padding-bottom: 10px;
   }
 
 .afficher:hover {
@@ -476,9 +478,6 @@ footer li {
   list-style: none;
   padding:5px
 }
-
-
-
 main {
   padding: 30px;
   
@@ -493,5 +492,17 @@ main {
     font-family: "Raleway-Bold", sans-serif;
  }
 
-
+ @media (min-width: 992px) and (max-width: 1079px) {
+.most-popular {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#apartment-info .marseille-hebergement {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.info h3 {
+  font-size: 16px;
+}
+ }
  
