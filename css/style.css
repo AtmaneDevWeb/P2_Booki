@@ -366,8 +366,8 @@ padding: 4px;
   display: block;
   font-weight: bold;
   font-size: 18px;
-  padding-bottom: 10px;
-  }
+  padding-top: 1%;
+   }
 
 .afficher:hover {
   color: #0065fc;
